@@ -1,0 +1,54 @@
+/* reset.css */
+
+/* Establece un estilo básico para elementos HTML */
+html {
+    line-height: 1.15; /* Mejora la legibilidad */
+    -webkit-text-size-adjust: 100%; /* Evita el ajuste automático del tamaño de texto en dispositivos móviles */
+}
+
+body {
+    font-family: sans-serif; /* Cambia a la fuente que prefieras */
+    font-size: 16px;
+}
+
+/* Estilos para encabezados */
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal; /* Normaliza el grosor de las fuentes */
+}
+
+/* Listas */
+ul, ol {
+    list-style: none; /* Elimina los puntos y números */
+}
+
+/* Enlaces */
+a {
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no desborden su contenedor */
+    height: auto; /* Mantiene la proporción de las imágenes */
+}
+
+/* Tabla */
+table {
+    border-collapse: collapse; /* Colapsa los bordes */
+    width: 100%; /* Hace que las tablas ocupen el 100% de su contenedor */
+}
+
+/* Formas */
+button, input, textarea {
+    font-family: inherit; /* Hereda la fuente del contenedor */
+    font-size: inherit; /* Hereda el tamaño de la fuente */
+}
+
+/* Otros elementos */
+fieldset {
+    border: none; /* Elimina el borde de los fieldsets */
+}
+
+legend {
+    display: none; /* Oculta el legend por defecto */
+}
